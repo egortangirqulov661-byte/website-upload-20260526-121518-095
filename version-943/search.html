@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索筛选-高分国产电视剧-高分剧集榜单-精选内容持续更新</title>
+  <meta name="description" content="围绕高分国产电视剧整理口碑剧集与榜单内容，方便查看评价较高的国产剧。">
+  <meta name="keywords" content="高分国产电视剧,高分剧集,电视剧榜单,国产剧片单,精选国产剧,持续更新,搜索筛选">
+  <meta name="theme-color" content="#020617">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="搜索筛选-高分国产电视剧-高分剧集榜单-精选内容持续更新">
+  <meta property="og:description" content="围绕高分国产电视剧整理口碑剧集与榜单内容，方便查看评价较高的国产剧。">
+  <link rel="stylesheet" href="./assets/site.css">
+  
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="./index.html" aria-label="高分剧集榜">
+      <span class="brand-icon">▶</span>
+      <span class="brand-text">
+        <strong>高分剧集榜</strong>
+        <em>高分国产电视剧精选</em>
+      </span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link " href="./index.html">首页</a>
+<a class="nav-link " href="./categories.html">分类</a>
+<a class="nav-link " href="./ranking.html">排行榜</a>
+<a class="nav-link is-active" href="./search.html">搜索</a>
+    </nav>
+    <form class="top-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、标签、年份" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-button" type="button" data-menu-button aria-label="展开导航">☰</button>
+  </div>
+  <div class="mobile-panel" data-menu-panel>
+    <form class="mobile-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、标签、年份" aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <nav aria-label="移动端导航">
+      <a class="mobile-link " href="./index.html">首页</a>
+<a class="mobile-link " href="./categories.html">分类</a>
+<a class="mobile-link " href="./ranking.html">排行榜</a>
+<a class="mobile-link is-active" href="./search.html">搜索</a>
+    </nav>
+  </div>
+</header>
+<main data-search-root>
+  <section class="page-hero">
+    <div class="page-wrap">
+      <span class="section-kicker">搜索筛选</span>
+      <h1>搜索高分国产电视剧</h1>
+      <p>输入片名、标签、年份、类型或剧情关键词，快速查找对应影片详情页。</p>
+    </div>
+  </section>
+  <section class="search-shell">
+    <div class="section-wrap">
+      <form class="search-box" data-search-form>
+        <div class="search-grid">
+          <input type="search" data-search-query placeholder="输入关键词" aria-label="搜索关键词">
+          <select data-search-region aria-label="地区">
+            <option value="">全部地区</option>
+            <option value="中国大陆">中国大陆</option>
+            <option value="中国香港">中国香港</option>
+            <option value="中国台湾">中国台湾</option>
+            <option value="韩国">韩国</option>
+            <option value="日本">日本</option>
+            <option value="美国">美国</option>
+            <option value="欧美">欧美</option>
+          </select>
+          <select data-search-type aria-label="类型">
+            <option value="">全部类型</option>
+            <option value="电影">电影</option>
+            <option value="剧集">剧集</option>
+            <option value="电视剧">电视剧</option>
+            <option value="纪录片">纪录片</option>
+            <option value="动画">动画</option>
+          </select>
+          <select data-search-year aria-label="年份">
+            <option value="">全部年份</option>
+            <option value="2027">2027</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option>
+          </select>
+          <button type="submit">筛选</button>
+        </div>
+      </form>
+      <div class="search-results" data-search-results></div>
+      <p class="search-empty" data-search-empty>没有找到符合条件的内容。</p>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-wrap">
+    <div class="footer-brand">
+      <a class="brand footer-logo" href="./index.html">
+        <span class="brand-icon">▶</span>
+        <span class="brand-text">
+          <strong>高分剧集榜</strong>
+          <em>高分国产电视剧精选</em>
+        </span>
+      </a>
+      <p>围绕高分国产电视剧整理口碑剧集与榜单内容，方便查看评价较高的国产剧。</p>
+    </div>
+    <div class="footer-group">
+      <h2>快速入口</h2>
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类总览</a>
+      <a href="./ranking.html">高分榜单</a>
+      <a href="./search.html">搜索筛选</a>
+    </div>
+    <div class="footer-group">
+      <h2>精选分类</h2>
+      <a href="./category-high-score.html">高分口碑</a>
+<a href="./category-urban-drama.html">都市剧场</a>
+<a href="./category-suspense-crime.html">悬疑犯罪</a>
+<a href="./category-warm-healing.html">温情治愈</a>
+<a href="./category-costume-legend.html">古装传奇</a>
+<a href="./category-romance-comedy.html">爱情喜剧</a>
+    </div>
+    <div class="footer-group">
+      <h2>内容主题</h2>
+      <p>国产剧片单、口碑剧集、年度榜单、精选内容持续更新。</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 高分剧集榜</span>
+    <span>高分国产电视剧-高分剧集榜单-精选内容持续更新</span>
+  </div>
+</footer>
+<script src="./assets/catalog.js" defer></script>
+<script src="./assets/site.js" defer></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
